@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: yRXRUaoRl4s6SvXjIu8ga/H8sOUvqhfsM9SqvJfIpmYD0/69SpLDtQLVIca+ozl/j1Bma3iggKtYcRO8Dzub2rXrqDhjDArRrW5ckHTIFJt8HLHtD+vkjVMuIjC6ECPszTkUH2k2+HJLITOR01xM+BruqupskERaXKFOftYUlWEzDMTbLJcTsrEVIT4I0Hi4OOoRHbCqHYMr6kRQ2kbW5sonX2t4oEzLqp++LuNl38/CWYCbbbHjwy5bwNr0qqXRjy/MolhI0fabHRDCPrhBFYAMbbDKzN7pXjb8epksTE4mYXq3HRZQDD+t5pW5H+sSMjxXhzbWorsl35IlJ4QENKcJ1THAN7+lKm5ngQxudyGxJVQ/3mWGiV5HJ/tcKoP384y3WCjEYSY+CiepJopcLGxdJXmAvrL/p0lTxjtyvnETMnNC2OTmYC2MTribfpCDdBiZdsUNtF9r38fQlCCtBXU9PLp2rqeJS6xUeo3FUZYTXnFZ74zXbugaWJLc5qj+V6I7g5BcvMv42p77kYNcA0A/M2RlFz3XleOWPl3oE86gEAAeLYdBD1re4yGjw82uYxIq+ejRAeWU6pXi9s2XqqHqOxH1RAR1IUqlQIUWqBYN7fpb5PUwg64fu/Ji48FduHorADTu5bD+8R1GE21JiAJEMPNzG4XA5nXn80qTlg4=
+  app: thawing-stream-60507
+  on:
+    repo: jylei/blog-app-mongoose-challenge-solution

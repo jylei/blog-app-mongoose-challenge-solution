@@ -111,6 +111,7 @@ describe('Blog post API resource', function () {
         it('should return blogposts with the right fields', function () {
             //get back all blogposts and ensure they have expected keys
             let resBlogPost;
+            //return chai as promise
             return chai.request(app)
                 .get('/posts')
                 .then(function (res) {
