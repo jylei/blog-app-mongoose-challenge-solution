@@ -10,7 +10,6 @@ const should = chai.should();
 const { DATABASE_URL } = require('../config');
 const { BlogPost } = require('../models');
 const { app, runServer, closeServer } = require('../server');
-const { TEST_DATABASE_URL } = require('../config');
 
 chai.use(chaiHttp);
 
@@ -66,7 +65,7 @@ describe('Blog post API resource', function () {
 
     //starts the server before each function
     before(function () {
-        return runServer(TEST_DATABASE_URL);
+        return runServer(DATABASE_URL);
     });
     //inserts seed data into collection before each function
     beforeEach(function () {
